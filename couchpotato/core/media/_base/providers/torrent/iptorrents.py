@@ -14,11 +14,11 @@ log = CPLog(__name__)
 class Base(TorrentProvider):
 
     urls = {
-        'test': 'https://iptorrents.com/',
-        'base_url': 'https://iptorrents.com',
-        'login': 'https://iptorrents.com/take_login.php',
-        'login_check': 'https://iptorrents.com/oldinbox.php',
-        'search': 'https://iptorrents.com/t?%s%%s&q=%s&qf=ti#torrents&p=%%d',
+        'test': 'https://ipt.cool/',
+        'base_url': 'https://ipt.cool',
+        'login': 'https://ipt.cool/take_login.php',
+        'login_check': 'https://ipt.cool/oldinbox.php',
+        'search': 'https://ipt.cool/t?%s%%s&q=%s&qf=ti#torrents&p=%%d',
     }
 
     http_time_between_calls = 1  # Seconds
