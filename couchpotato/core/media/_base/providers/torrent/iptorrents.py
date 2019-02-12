@@ -117,7 +117,7 @@ class Base(TorrentProvider):
 
 
 config = [{
-    'name': 'iptorrentsproxy',
+    'name': 'iptorrentsnew',
     'groups': [
         {
             'tab': 'searcher',
